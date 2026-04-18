@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "test": "cd backend && npm test",
+    "test:watch": "cd backend && npm test -- --watch",
+    "test:coverage": "cd backend && npm test -- --coverage"
+  },
   "dependencies": {
     "dotenv": "^16.4.5"
   },

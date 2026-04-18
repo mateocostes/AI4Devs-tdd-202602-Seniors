@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"^-.*\\\\.\\(js|json|yml|yaml\\)$\")",
+      "Bash(mkdir -p \"c:/Users/Usuario/Desktop/IA4Devs/Entregables/AI4Devs-tdd-202602-Seniors/.claude/agents\")",
+      "Bash(mkdir -p \"c:/Users/Usuario/Desktop/IA4Devs/Entregables/AI4Devs-tdd-202602-Seniors/.claude/commands\")",
+      "Bash(npm test *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"const path = require\\('path'\\); console.log\\(path.resolve\\('src/test', '../../application/services/candidateService'\\)\\)\")",
+      "Bash(npm run *)",
+      "Bash(git -C c:/Users/Usuario/Desktop/IA4Devs/Entregables/AI4Devs-tdd-202602-Seniors status --short)",
+      "Bash(git -C c:/Users/Usuario/Desktop/IA4Devs/Entregables/AI4Devs-tdd-202602-Seniors checkout -- backend/tsconfig.json package.json)"
+    ]
+  }
+}
